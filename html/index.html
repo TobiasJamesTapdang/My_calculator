@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>James.com</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text"><input id="text" type="text" /></div>
+      <div class="container1"></div>
+      <div class="button-border">
+        <div class="Row-one">
+          <button class="jemo">CE</button>
+          <button class="jemo" onclick="fitOn('ON')">ON</button>
+          <button class="jemo" onclick="clearOn('C')">C</button>
+          <button class="jemo" onclick="getSign('x')">x</button>
+        </div>
+        <div class="Row-two">
+          <button class="jemo" onclick="insert(1)">1</button>
+          <button class="jemo" onclick="insert(2)">2</button>
+          <button class="jemo" onclick="insert(3)">3</button>
+          <button class="jemo" onclick="getSign('-')">-</button>
+        </div>
+        <div class="Row-three">
+          <button class="jemo" onclick="insert(4)">4</button>
+          <button class="jemo" onclick="insert(5)">5</button>
+          <button class="jemo" onclick="insert(6)">6</button>
+          <button class="jemo" onclick="insert('+')">+</button>
+        </div>
+        <div class="Row-four">
+          <button class="jemo" onclick="insert(7)">7</button>
+          <button class="jemo" onclick="insert(8)">8</button>
+          <button class="jemo" onclick="insert(9)">9</button>
+          <button class="jemo" onclick="getSign('/')">/</button>
+        </div>
+        <div class="Row-five">
+          <button class="jemo" onclick="insert(0)">0</button>
+          <button class="jemo" onclick="insert('.')">.</button>
+          <button class="jemo" onclick="insert('00')">00</button>
+          <button class="jemo" onclick="equals('=')">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="javascript.js">
+    // function run(e) {
+    //   confirm("It was successful");
+    // }
+    // let buttonArr = document.getElementsByClassName("jemo");
+    // console.log(buttonArr[3]);
+    // // run();
+    // buttonArr[3].onclick = run;
+  </script>
+</html>

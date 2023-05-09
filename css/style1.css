@@ -1,0 +1,96 @@
+.main{
+    border: 20px solid rgb(70, 69, 69); 
+    width: 285px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+body{
+    background-color: rgb(97, 153, 153);
+}
+table{
+    width: 100%;
+
+}
+td{
+    width: 25%;
+
+}
+button{
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    height: 65px;
+    font-size: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(116, 106, 106), -5px -5px 10px rgb(141, 135, 135);
+    
+}
+button:active{
+    box-shadow: 1px 1px 3px #fff8f8, -1px -1px 2px #474343;
+}
+#show{
+    width: 92%;
+    height: 32px;
+    background-color:rgb(94, 92, 92);
+    font-size: 22px;
+    color: white;    
+    padding: 10px;
+    border-bottom: none;
+   
+    
+}
+#show_me{
+    width: 92%;
+    height: 32px;
+    background-color:rgb(94, 92, 92);
+    font-size: 32px;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    border-top: none;
+    
+}
+::placeholder{
+    color: white;
+}
+#off{
+    background-color: rgb(204, 112, 112);
+    
+}
+#in{
+    font-size: 14px;
+}
+#clear{
+    color: rgb(0, 225, 0);
+    font-size: 20px;
+}
+#del{
+    color: red;
+    font-size: 26px;
+}
+button:hover{
+    background-color: blue;
+}
+.je{
+    font-size: medium;
+    height: 35px;
+
+} 
+.jemo{
+    font-size: 16px;
+    height: 50px;
+}
+.me{
+    width: 92%;
+    height: 40px;
+    background-color: blueviolet;
+}
+.jemoo{
+    height: 50px;
+}
+.sup{
+    color: rgb(165, 32, 32);
+}

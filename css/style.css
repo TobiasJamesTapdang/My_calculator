@@ -1,0 +1,61 @@
+.container{
+    background-color: rgb(104, 96, 109);
+    margin-left: 200px;
+    width: 370px;
+    height: 470px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+button{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    
+    
+}
+button:hover{
+    background-color: rgb(107, 247, 252);
+}
+.jemo{
+    font-size: 20px;
+    width: 80px;
+    height: 50px;
+    margin-bottom: 3px;
+    font-size: 35px; 
+}
+input{
+    height: 60px;
+    width: 342px;      
+    font-size: 32px;
+    margin: 3px;
+        
+}
+.container1{
+    height: 20px;
+    width: 355px;
+    border: solid 1px white;
+    margin-left: 6px;
+    margin-top: 15px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.text{
+    height: 73px;
+    width: 355px;
+    border: solid 1px white;
+    margin-left:6px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.button-border{
+    height: 320px;
+    width: 355px;
+    border: solid 1px white;
+    margin-left: 6px;
+    margin-top: 18px;
+}
+.Row-one{
+    margin-top: 10px;
+}

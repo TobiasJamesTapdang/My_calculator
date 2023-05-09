@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>My_calculator</title>
+  </head>
+  <body>
+    <div class="main">
+      <table>
+        <tr>
+          <input type="text"  id="show"  />
+          <input type="text"  id="show_me"  />
+        </tr>
+        <tr>
+            <td><button class="je" id="off"  onclick="wipe()">OFF</button></td>              
+            <td><button onclick="pi()"class="je" id="on">&pi;</button></td>
+            <td><button class="je" id="clear" onclick="wipe()">C<sub class="sup">lr</sub></button></td>          
+            <td><button onclick="deleteChar()" class="je" id="del">&larr;</button></td>
+        </tr>
+        
+        <tr>
+            <td><button class="je" onclick="square()">x<sup class="sup">2</sup></button></td>
+            <td><button class="je" onclick="cube()">x<sup class="sup">3</sup></button></td>
+            <td><button class="je" onclick="sqrt2()"> &radic;</button></td>
+            <td><button class="je" onclick="sqrt3()"> &#8731;</button></td>            
+        </tr>
+        <tr>
+          <td><button class="je" id="in" onclick="nat_log()">In(x)</button></td>
+          <td><button class="je" onclick="log()">log</button></td>
+          <td><button class="je" onclick="exp_num()">e<sup class="sup">x</sup></button></td>
+          <td><button class="je" onclick="factorial(document.getElementById('show').value)">n!</button></td>          
+        </tr>
+        <tr>
+          <td><button class="je" onclick="exponent()">e</button></td>
+          <td><button class="je" onclick="sin()">sin</button></td>
+          <td><button class="je" onclick="cos()">cos</button></td>
+          <td><button class="je" onclick="tan()">tan</button></td>          
+        </tr>
+                
+        <tr>
+          <td><button class="jemo" onclick="sin_inv()">sin<sup class="sup">-1</sup></button></td>
+          <td><button class="jemo" onclick="cos_inv()">cos<sup class="sup">-1</sup></button></td>
+          <td><button class="jemo" onclick="tan_inv()">tan<sup class="sup">-1</sup></button></td>
+          <td><button class="jemoo" onclick="number('/')">/</button></td>
+          </tr>
+        <tr>
+          <td><button onclick="number('7')">7</button></td>
+          <td><button onclick="number('8')">8</button></td>
+          <td><button onclick="number('9')">9</button></td>
+          <td><button onclick="number('*')">*</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="number('4')">4</button></td>
+          <td><button onclick="number('5')">5</button></td>
+          <td><button onclick="number('6')">6</button></td>
+          <td><button onclick="number('+')">+</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="number('1')">1</button></td>
+          <td><button onclick="number('2')">2</button></td>
+          <td><button onclick="number('3')">3</button></td>
+          <td><button onclick="number('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="number('0')">0</button></td>
+          <td><button onclick="number('.')">.</button></td>
+          <td><button onclick="result()">=</button></td>
+          <td><button onclick="number('%')">%</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="myjavaS.js"></script>
+</html>
